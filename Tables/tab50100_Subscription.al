@@ -39,7 +39,7 @@ table 50100 "CSD Subscriptions"
             Caption = 'Invoice Pricing'; 
             DataClassification = CustomerContent;
         }
-        field(7; "Defferal Code"; Code[10g])
+        field(7; "Defferal Code"; Code[10])
         {
             Caption = 'Defferal Code';
             DataClassification = CustomerContent;

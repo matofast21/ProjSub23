@@ -2,6 +2,7 @@ page 50101 "CDS Customer List"
 {
     Caption = 'Customer List';
     PageType = List;
+    UsageCategory = Lists;
     SourceTable = "CSD Subscriptions";
     Editable = false;
     CardPageId = "CSD Subscription Card";

@@ -52,6 +52,7 @@ table 50101 "CSD Customer Subscription"
                     "Next Invoice Date" := "Start Date";
                     Active := TRUE;
                 end;
+                end;
 
 
         }

@@ -2,7 +2,7 @@ page 50100 "CSD Subscription Card"
 {
     PageType = Card;
     ApplicationArea = All;
-    UsageCategory = Administration;
+    
     SourceTable = "CSD Subscriptions";
 
     layout
