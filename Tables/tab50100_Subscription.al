@@ -16,9 +16,9 @@ table 50100 "CSD Subscriptions"
             Caption = 'Name';
             DataClassification = CustomerContent;
         }
-        field(3; "Iem Number"; Code[20])
+        field(3; "Item Number"; Code[20])
         {
-            Caption = 'Item No."';
+            Caption = 'Item No.';
             DataClassification = CustomerContent;
             TableRelation = Item;
         }
@@ -27,7 +27,7 @@ table 50100 "CSD Subscriptions"
             Caption = 'Invoicing Schedule';
             DataClassification = CustomerContent;
             OptionMembers = "Posting Date","Beginning of Period","End of Period", "Beginning of Next Period";
-            OptionCaption = 'Posting Date,Beginning of Period,End of Period, Beginning of Next Period';
+            OptionCaption = 'Posting Date,Beginning of Period,End of Period,Beginning of Next Period';
         }
         field(5; "Invoicing Frequence"; DateFormula)
         {
